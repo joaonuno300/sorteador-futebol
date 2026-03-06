@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sorteador de Equipas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>⚽ Sorteador de Equipas</h1>
+
+<h2>Adicionar jogador</h2>
+
+<input id="nome" placeholder="Nome">
+<select id="nivel">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+
+<button onclick="adicionarJogador()">Adicionar</button>
+
+<h2>Jogadores</h2>
+
+<div id="listaJogadores"></div>
+
+<button onclick="sortear()">Sortear Equipas</button>
+
+<h2>Equipas</h2>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
