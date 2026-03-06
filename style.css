@@ -1,22 +1,96 @@
 body{
-font-family: Arial;
+
+font-family: Arial, sans-serif;
+background:#f4f6f8;
+margin:0;
 padding:20px;
-background:#f2f2f2;
+
+}
+
+.container{
+
+max-width:500px;
+margin:auto;
+
 }
 
 h1{
-color:#1c7c3c;
+
+text-align:center;
+color:#1e7a39;
+
+}
+
+.card{
+
+background:white;
+padding:15px;
+margin-bottom:15px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+input,select{
+
+width:100%;
+padding:10px;
+margin-top:8px;
+margin-bottom:10px;
+font-size:16px;
+
 }
 
 button{
-padding:10px;
-margin-top:10px;
+
+width:100%;
+padding:12px;
 font-size:16px;
+border:none;
+border-radius:8px;
+background:#1e7a39;
+color:white;
+margin-top:5px;
+
+}
+
+button:hover{
+
+opacity:0.9;
+
+}
+
+.sortear{
+
+background:#0b5ed7;
+
 }
 
 .jogador{
-background:white;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
 padding:8px;
-margin:5px 0;
+border-bottom:1px solid #eee;
+
+}
+
+.remover{
+
+background:#d9534f;
+padding:6px 10px;
 border-radius:6px;
+font-size:12px;
+
+}
+
+.equipa{
+
+background:white;
+padding:12px;
+margin-top:10px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+
 }
